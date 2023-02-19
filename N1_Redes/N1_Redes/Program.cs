@@ -28,6 +28,7 @@ namespace N1_Redes
             int opcao = int.Parse(opcao_string);
             string titulo = opcao == 1 ? "criptografado" : "decriptografado";
 
+            // CRIPTOGRAFIA
             if (opcao == 1)
             {
                 Console.WriteLine("Digite por quantos caracteres será feita a criptografia.");
@@ -43,14 +44,16 @@ namespace N1_Redes
 
                 Console.WriteLine("\r\nDigite o texto para ser criptografado.");
                 string texto_original = Console.ReadLine();
-                string nome_arquivo = "input.txt";
+                string nome_arquivo = "backup.txt";
                 File.WriteAllText(nome_arquivo, texto_original);
 
                 string cifra_texto = Caesar(File.ReadAllText(nome_arquivo), troca, opcao == 1 ? 1 : 2);
-                File.WriteAllText("output.txt", cifra_texto);
+                File.WriteAllText("encrypted.txt", cifra_texto);
                 File.WriteAllText("value.txt", Convert.ToString(troca));
-                Console.WriteLine("Texto " + titulo + ".");
+                Console.WriteLine("\r\nTexto " + titulo + ".");
+                Console.ReadKey();
             }
+            //DECRIPTOGRAFIA
             else
             {
                 Console.WriteLine("\r\nPara que seus dados sejam resgatados, realize uma transferência de 0.1 BTC para a seguinte carteira: 13j8drfVDJ1YDgWuTepbgbZivx5PmDXwzz");
@@ -62,12 +65,14 @@ namespace N1_Redes
                     return;
                 }
                 int troca = Convert.ToInt32(File.ReadAllText("value.txt"));
-                string cifra_texto = Caesar(File.ReadAllText("output.txt"), troca, 2);
+                string cifra_texto = Caesar(File.ReadAllText("encrypted.txt"), troca, 2);
                 File.WriteAllText("decrypted.txt", cifra_texto);
-                Console.WriteLine("Texto " + titulo + ".");
+                Console.WriteLine("\r\nTexto " + titulo + ".");
+                Console.ReadKey();
             }        
         }
 
+        // MÉTODO RESPONSÁVEL POR CRIAR UM ALFABETO CONSIDERANDO AS 26 LETRAS E ACENTUAÇÕES E REALIZAR A CRIPTOGRAFIA/DECRIPTOGRAFIA PELA CIFRA DE CÉSAR
         static string Caesar(string texto, int troca, int modo)
         {
             string alfabeto = "abcdefghijklmnopqrstuvwyzàáãâéêóôõíúçABCDEFGHIJKLMNOPQRSTUVWYZÀÁÃÂÉÊÓÕÍÚÇ";
