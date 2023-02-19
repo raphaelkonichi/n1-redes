@@ -1,0 +1,15 @@
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\bin\Debug\net6.0\N1_Redes.exe
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\bin\Debug\net6.0\N1_Redes.deps.json
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\bin\Debug\net6.0\N1_Redes.runtimeconfig.json
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\bin\Debug\net6.0\N1_Redes.dll
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\bin\Debug\net6.0\N1_Redes.pdb
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\obj\Debug\net6.0\N1_Redes.csproj.AssemblyReference.cache
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\obj\Debug\net6.0\N1_Redes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\obj\Debug\net6.0\N1_Redes.AssemblyInfoInputs.cache
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\obj\Debug\net6.0\N1_Redes.AssemblyInfo.cs
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\obj\Debug\net6.0\N1_Redes.csproj.CoreCompileInputs.cache
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\obj\Debug\net6.0\N1_Redes.dll
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\obj\Debug\net6.0\refint\N1_Redes.dll
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\obj\Debug\net6.0\N1_Redes.pdb
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\obj\Debug\net6.0\N1_Redes.genruntimeconfig.cache
+C:\Users\rapha\source\repos\N1_Redes\N1_Redes\obj\Debug\net6.0\ref\N1_Redes.dll
